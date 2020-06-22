@@ -10,7 +10,7 @@ docker info | grep "Docker Root"
 
 # Create Nginx Config file
 touch ~/example.log
-cat >~/example.conf <<EOF
+cat > ~/example.conf <<EOF
 server {
   listen 80;
   server_name localhost;
